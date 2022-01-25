@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+        
+    </style>
+    <script src="script.js">
+    </script>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td id= "display" colspan="4"><span style="float: right; padding-right: 10px;">0</span></td>
+        </tr>
+        <tr>
+            <td class="clear" onclick="reset()" colspan="3">CLEAR</td>
+            <td class="operator">%</td>
+        </tr>
+        <tr>
+            <td class="number">7</td>
+            <td class="number">8</td>
+            <td class="number">9</td>
+            <td class="operator">x</td>
+        </tr>
+        <tr>
+            <td class="number">4</td>
+            <td class="number">5</td>
+            <td class="number">6</td>
+            <td class="operator">-</td>
+        </tr>
+        <tr>
+            <td class="number" onclick="set(1)">1</td>
+            <td class="number" onclick="set(2)">2</td>
+            <td class="number" onclick="set(3)">3</td>
+            <td class="operator" onclick="sum()">+</td>
+        </tr>
+        <tr>
+            <td class="number">0</td>
+            <td class="number">.</td>
+            <td class="result" colspan="2">=</td>
+        </tr>
+    </table>
+</body>
+
+</html>

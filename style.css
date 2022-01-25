@@ -1,0 +1,39 @@
+table,
+td,
+tr {
+    border: 1px solid black;
+}
+
+td {
+    height: 50px;
+    width: 50px;
+    font: 25px bold;
+    color: #fff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.operator {
+    background-color: rgba(248, 184, 9, 0.801);
+}
+
+.number {
+    background-color: #808080;
+}
+
+#display {
+    background-color: #000;
+}
+
+.result {
+    background-color: seagreen;
+}
+
+.clear {
+    background-color: rgb(43, 137, 226);
+}
+
+body {
+    margin: 20px;
+    padding: 20px;
+}
